@@ -1,0 +1,119 @@
+@charset "UTF-8";
+body{
+  width: 100%;
+  height: 100vh;
+  background:linear-gradient(330deg, #3ee33b,#6297cf,rgb(239, 178, 73));
+  background-size: 200% 200%;
+  animation: bggradient 10s ease infinite;
+}
+@keyframes bggradient{
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+h2{
+text-align:center;
+margin:0 auto;
+font-size: 100px;
+}
+
+
+.gggklklkl{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.klklklggg{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.midashi{
+  background:linear-gradient(35deg, #aedba3,#9cb8d6,rgb(229, 209, 173));
+  margin-left:90px;
+  margin-right:90px;
+  padding: 0px;
+  border-style: solid;
+  border-color: black;
+  border-width:medium;
+}
+.yudai{
+  background-color: white;
+  width: 400px;
+  height: 300px;
+  margin: 30px;
+  border-radius: 10px;
+  text-align:center;
+  font-size: 25px;
+}
+.syumi{
+  background-color: rgb(255, 255, 255);
+  width: 400px;
+  height: 300px;
+  margin:30px;
+  border-radius: 10px;
+  text-align:center;
+  font-size: 25px;
+}
+.skill{
+  background-color: rgb(255, 255, 255);
+  width: 400px;
+  height: 300px;
+  margin:30px;
+  border-radius: 10px;
+  text-align:center;
+  font-size: 25px;
+}
+.OS{
+  background-color: rgb(255, 255, 255);
+  width: 400px;
+  height: 350px;
+  margin:30px;
+  border-radius: 10px;
+  text-align:center;
+  font-size: 25px;
+}
+.communication{
+  background-color: rgb(255, 255, 255);
+  width: 450px;
+  height: 350px;
+  margin:30px;
+  border-radius: 10px;
+  text-align:center;
+  font-size: 25px;
+}
+
+.image {
+  cursor: pointer;
+  height: 345px;
+  margin-top: 30px;
+  margin: 30px;
+  overflow: hidden;
+  position: relative;
+  width: 345px;
+}
+
+.image img {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  position: absolute;
+  }
+
+
+.image img:last-of-type {
+  top: 100%;
+  transition: top .7s;
+}
+
+.image:hover img {
+  top: 0;
+}
